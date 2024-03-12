@@ -1,0 +1,92 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  height: auto;
+}
+
+header {
+  background-color: #4492c9;
+  height: 80px;
+  color: white;
+  padding: 20px;
+}
+
+.main__start {
+  height: 210px;
+  background-color: #eef5ff;
+  padding: 10px;
+}
+
+.text {
+  background-color: #37d369;
+  height: 100px;
+  width: 36%;
+  margin: 0px auto;
+  border: 1px solid green;
+  padding: 14px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.text__end {
+  text-align: right;
+}
+
+.click__here {
+  background-color: #d7564a;
+  width: 18%;
+  border-radius: 10px;
+  height: 80px;
+  color: white;
+  padding: 10px;
+  margin: 10px auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.click__here a {
+  color: white;
+  display: block;
+}
+
+.click__here p,
+a {
+  margin: 10px;
+  text-align: center;
+}
+
+.main__end {
+  background-color: #013239;
+  color: white;
+  padding: 50px 20px;
+  height: 210px;
+}
+
+.main__end p {
+  margin-top: 20px;
+}
+
+footer {
+  height: 50px;
+  background-color: #222831;
+  text-align: center;
+  padding-top: 12px;
+  color: rgb(47, 134, 255);
+  
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(47, 134, 255);
+  transition: 0.3s;
+}
+
+footer a:hover {
+  color: white;
+}

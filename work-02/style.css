@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fffcf5;
+   
+}
+
+.container{
+    width: 600px;
+    margin-left: 430px;
+}
+
+.container__heading{
+    text-align: center;
+    border-bottom: 2px solid rgb(159, 189, 237);
+   
+}
+
+.container__heading img{
+    width: 120px;
+    height: 120px;
+    margin-top: 14px;
+    margin-bottom: 4px;
+}
+
+.container__ending h4,p{
+    margin-top: 16px;
+}
+
+.container__ending h4{
+    color: #E3651D;
+    
+}
